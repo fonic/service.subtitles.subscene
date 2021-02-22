@@ -1,3 +1,9 @@
+1.9.0.1
+- Fix support for Kodi 19 Matrix
+
+1.9.0
+- ?
+
 1.8.2
 - Fix python 3 tv show subtitle search
 

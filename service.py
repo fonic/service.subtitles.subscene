@@ -476,7 +476,7 @@ def download(link, episode=""):
             xbmc.sleep(500)
             log(__name__, "Extracting '%s' to '%s'" % (local_tmp_file, tempdir))
             if sys.version_info.major == 3:
-                xbmc.executebuiltin('XBMC.Extract("%s","%s")' % (local_tmp_file, tempdir), True)
+                xbmc.executebuiltin('Extract("%s","%s")' % (local_tmp_file, tempdir), True)
             else:
                 xbmc.executebuiltin(('XBMC.Extract("%s","%s")' % (local_tmp_file, tempdir,)).encode('utf-8'), True)
 
